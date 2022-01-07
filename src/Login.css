@@ -1,0 +1,28 @@
+.Login-page {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.Login-logo {
+  width: 60%;
+}
+
+.Login-page > a{
+  background-color: #1db954;
+  padding: 16px 48px 18px;
+  border-radius: 500px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: normal;
+  letter-spacing: 2px;
+  transform: color ease-in;
+  transition-duration: 0.3s;
+}
+
+.Login-page > a:hover{
+  background-color: #1fe464;
+}

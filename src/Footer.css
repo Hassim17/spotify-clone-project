@@ -1,0 +1,138 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  background-color: #282828;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer-left {
+  flex: 0.3;
+  display: flex;
+  min-width: 200px;
+  max-width: 350px;
+  align-items: center;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.footer-albumImage {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  object-fit: cover;
+}
+
+.footer-albumDetails {
+  padding-left: 10px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.footer-center {
+  flex: 0.4;
+  padding: 0 10px;
+  color: white;
+  max-width: 400px;
+}
+
+.footer-center-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 0px 110px;
+}
+
+.footer-center * .MuiSlider-rail {
+  color: white;
+  width: 100%;
+  box-shadow: none !important;
+}
+
+.footer-center * .MuiSlider-thumb {
+  display: none;
+}
+
+.footer-center * .MuiSlider-rail:hover + .footer-center * .MuiSlider-thumb {
+  display: block !important;
+}
+
+.css-187mznn-MuiSlider-root {
+  color: #1db954 !important;
+}
+
+.footer-center-slider {
+  display: flex;
+  font-size: 11px;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.footer-right {
+  position: relative;
+  left: 100px;
+  flex: 0.3;
+  display: flex;
+  justify-items: flex-end;
+  justify-content: space-between;
+  color: white;
+  min-width: 200px;
+  max-width: 350px;
+}
+
+.footer-right * .MuiSlider-root {
+  color: white;
+  width: 40%;
+  margin: 0px;
+  min-width: 100px;
+}
+
+.footer-right * .css-eg0mwd-MuiSlider-thumb {
+  height: 0px;
+  width: 0px;
+}
+
+.footer-right * .css-187mznn-MuiSlider-root {
+  padding: 8px 0;
+}
+
+.footer-green-on {
+  color: #1db954;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+}
+
+.footer-green-off {
+  color: white;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+}
+
+.footer-icon{
+  padding: 0;
+  background-color: transparent ;
+  border: none;
+  color: white;
+  margin: 0;
+  cursor: pointer;
+}
+
+.footer-green:hover,
+.footer-icon:hover {
+  transition: transform 0.2s ease-in;
+  transform: scale(1.2) !important;
+}

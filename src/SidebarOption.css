@@ -1,0 +1,37 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    color: rgb(156, 156, 156);
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+}
+
+.sidebarOption > button{
+    background-color: transparent;
+    color: grey;
+    border: none;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+}
+
+.sidebarOption > button:hover{
+    color: white;
+}
+
+.sidebarOption:hover{
+    color: white;
+}
+
+.sidebarOption-icon{
+    padding: 10px;
+}
+  
+.sidebarOption > button {
+    font-size: 13px;
+    padding: 10px 0;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

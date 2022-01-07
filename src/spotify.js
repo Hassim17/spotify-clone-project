@@ -1,6 +1,6 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
-const redirectUri = "https://spotify-clone-17.netlify.app/";
+const redirectUri = "https://hassim17.github.io/spotify-clone-project/";
 
 const clientId = "894beec6d42b4d6db2d31f4c58340184";
 
